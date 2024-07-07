@@ -145,6 +145,7 @@ body{
     text-transform: uppercase;
     font-family: Inter;
     opacity: .75;
+    margin-right: 0px;
 }
 .rightside-content{
     display: flex;
@@ -153,3 +154,44 @@ body{
     opacity: .8; 
 }
 /* midnight party section end here  */
+
+ /* party place section start here */
+ .party-place-conatiner{
+    max-width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+    background-image: linear-gradient(180.00deg, rgba(243, 220, 220, 0.993),rgba(252, 251, 251, 0.993) 100%),url("../assest/images/Rectangle\ 15.png");
+    border-radius: 16px;
+ }
+ .party-place-content{
+    width: 549px;
+    height: 272px;
+    
+    text-align: center;
+    
+ }
+ .party-place-content h2{
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    font-size: 28px;
+ }
+ .party-place-content h2 span{
+    color: red;
+ }
+ .party-btn{
+    background-color: red;
+    width: 167px;
+    height: 56px;
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+ }
