@@ -340,8 +340,9 @@ hr{
 .holyday-sale-container{
     max-width: 1320px;
     height: 986px;
-    border: 2px solid red;
     margin: 0 auto;
+    margin-bottom: 120px;
+    position: relative;
     margin-bottom: 120px;
 }
 .holyday-sale-first-section{
@@ -377,3 +378,126 @@ hr{
     letter-spacing: 0%;
     font-family: Inter;
 }
+.holyday-sale-banner-section{
+    width: 1320px;
+    height: 229px;
+    background-color: red;
+    position: absolute;
+    top: 753px;
+}
+.giftbox{
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+}
+.portfolio-container{
+    width: 1320px;
+    height: 1163px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+.portfolio-text h4{
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    font-family: Inter;
+}
+.portfolio-text h2{
+    color: rgb(7, 2, 17);
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    font-family: Merriweather;
+}
+.portfolio-text p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    font-family: Inter;
+    margin-bottom: 20px;
+}
+.portfolio-item{
+    width: 424px;
+    height: 450px;
+    
+}
+.portfolio-item img{
+    width: 100%;
+    height: 100%;
+    border: 2px dashed rgb(216, 212, 212);
+}
+.portfolio-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.newsletter-container{
+    max-width: 1320px;
+    height: 616px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    background-color:rgb(250, 239, 239);
+    border-radius: 16px;
+}
+.mail-icon{
+    text-align: center;
+    padding-top: 100px;
+}
+.mail-icon img{
+    border: 2px dashed rgb(180, 177, 177);
+}
+.newsletter-content{
+    text-align: center;
+    margin:50px 0px;
+}
+.newsletter-content h2{
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    font-family: Merriweather;
+    padding-bottom: 10px;
+}
+.newsletter-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    font-family: Inter;
+}
+.newsletter-btn{
+    width: 648px;
+    height: 72px;
+    margin: 0 auto;
+    position: relative;
+}
+.newsletter-btn h3{
+    position: absolute;
+    bottom: 21px;
+    left: 77%;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: Inter;
+}
+.newsletter-btn input{    
+    width: 648px;
+    height: 72px;
+    border-radius: 60px;
+    border: none;
+    padding-left: 30px;
+    background-image: url("../assest/images/Rectangle\ 13.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}    
