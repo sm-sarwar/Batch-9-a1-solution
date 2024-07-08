@@ -195,3 +195,185 @@ body{
     color: white;
     margin-top: 20px;
  }
+ /* coming-soon-section start  */
+ .coming-soon-container{
+    max-width: 1320px;
+    height: 463px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 120px;
+    
+ }
+ .coming-soon-text{
+    
+    width: 33.33%;
+    height: 463px;
+    display: flex;
+    align-items: center;
+ }
+ .coming-soon-pic{
+    
+    width: 33.33%;
+    height: 463px;
+ }
+ .coming-soon-icon{
+    
+    width: 33.33%;
+    height: 463px;
+ }
+ .coming-soon-text-content{
+    width: 393px;
+    height: 255px;
+    
+    
+ }
+ .coming-soon-text-content h4{
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    font-family: Inter;
+    padding-bottom: 10px;
+ }
+ .coming-soon-text-content h2{
+    font-weight: 800;
+    padding-bottom: 10px;
+
+ }
+ .coming-soon-text-content p{
+    font-family: Inter;
+    opacity: .6;
+    line-height: 32px;
+    letter-spacing: 0%;
+ }
+ .coming-soon-pic{
+   position: relative;
+ }
+
+.coming-soon-pic img{
+    position: absolute;
+    
+}
+.coming-soon-pic .elleps-one{
+    top: 40px;
+    left: 38px;
+    
+}
+.coming-soon-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+/* footer section  */
+.footer-container{
+    max-width: 1600px;
+    height: 609px;
+    background-color: black;
+}
+.footer-first-section{
+    max-width: 1600px;
+    height: 203px;
+    display: flex;
+}
+.footer-first-section-address{
+    width: 800px;
+    height: 203px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 550;
+    line-height: 30px;
+    letter-spacing: 0%;
+    font-family: Inter;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+.footer-first-section-contact{
+    width: 800px;
+    height: 203px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: Inter;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-icon-section{
+    max-width: 1600px;
+    height: 203px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.footer-icon-section img{
+    border: 2px dashed rgb(136, 131, 131);
+}
+
+.footer-last-section{
+    max-width: 1600px;
+    height: 203px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: Inter;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+hr{
+    opacity: .5;
+}
+.holyday-sale-container{
+    max-width: 1320px;
+    height: 986px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+.holyday-sale-first-section{
+    width: 1068px;
+    height: 260px;
+    margin: 0 auto;
+    text-align: center;
+}
+.holyday-sale-first-section h4{
+    color: rgb(7, 2, 17);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    font-family: Inter;
+    opacity: .7;
+}
+.holyday-sale-first-section h1{
+    font-family: Merriweather;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    font-size: 72px;
+}
+.holyday-sale-first-section h1 span{
+    color: red;
+}
+.holyday-sale-first-section p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    font-family: Inter;
+}
